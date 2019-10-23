@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: tensor-flow-test
+
+  data:
+    mongodb:
+      database: tensor-flow-mongo
+      authentication-database: admin
+      username: root
+      password: root
+      port: 27017
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
