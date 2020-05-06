@@ -15,7 +15,7 @@
     <description>tensorflow demo test</description>
 
     <properties>
-        <beam.version>2.16.0</beam.version>
+        <beam.version>2.17.0</beam.version>
         <java.version>1.8</java.version>
     </properties>
 
